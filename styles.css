@@ -82,3 +82,10 @@ body{
   border-top:1px solid var(--border);
 }
 a{color:var(--accent)}
+.card img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 16px;
+  display: block;
+  margin: 16px auto;
+}
