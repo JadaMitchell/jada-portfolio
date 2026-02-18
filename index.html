@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jada Mitchell | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>Jada Mitchell</h1>
+    <p>Software Application Development + HCI • Building user-friendly web apps</p>
+    <div class="btnRow">
+      <a class="btn" href="#projects">View Projects</a>
+      <a class="btn ghost" href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <div class="grid">
+        <article class="card">
+          <img src="projects/assets/study-tracker.png" alt="Study Task Tracker screenshot" />
+
+          <div class="cardBody">
+            <h3>Study Task Tracker (Full Stack)</h3>
+            <p>
+              Task tracker with due dates, priorities, dashboard metrics, and persistent storage.
+              Built with HTML/CSS/JS + Express + SQLite.
+            </p>
+            <div class="tags">
+              <span>HTML/CSS</span><span>JavaScript</span><span>Express</span><span>SQLite</span>
+            </div>
+
+            <div class="cardBtns">
+              <!-- Replace these links once deployed -->
+              <a class="btn" href="projects/study-tracker.html">Details</a>
+              <a class="btn ghost" href="#" id="liveDemoLink">Live Demo (coming)</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:JadaMitchell2428@gmail.com">JadaMitchell2428@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/jada-mitchell-17ab5a22a/" target="_blank" rel="noreferrer">https://www.linkedin.com/in/jada-mitchell-17ab5a22a/</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Jada Mitchell</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
