@@ -91,5 +91,14 @@ a{color:var(--accent)}
   margin-top: 1.5rem;
   box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
+.project-image {
+  max-width: 800px;   /* limits size */
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
 
 
